@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+  
+</head>
+<script> 
+function myFunction(event) {
+  var x = event.keyCode;
+  if(x == 97){ACLICK();}
+  if(x == 98){BCLICK();}
+  if(x == 99){CCLICK();}
+  if(x == 100){DCLICK();}
+  if(x == 101){ECLICK();}
+
+}
+function ACLICK(){
+        var x = document.getElementById("music");
+        x.play(); 
+    }
+
+        function BCLICK(){
+        var x = document.getElementById("music1");
+        x.play();
+    }
+    function CCLICK(){
+        var x = document.getElementById("music2");
+        x.play();
+    }
+    function DCLICK(){
+        var x = document.getElementById("music3");
+        x.play();
+    }
+    function ECLICK(){
+        var x = document.getElementById("music4");
+        x.play();
+    }
+</script>
+<body>
+
+ <body onkeypress="myFunction(event)" >
+    <Audio id="music" src="A.wav"></Audio>
+    <Audio id="music1" src="B.wav"></Audio>
+    <Audio id="music2" src="C.wav"></Audio>
+    <Audio id="music3" src="D.wav"></Audio>
+    <Audio id="music4" src="E.wav"></Audio>   
+    <div class="wel">
+        <p> <h1>  welecom  </h1>  </p> 
+    </div>
+    <div class="div1">
+<button class="A" onclick="ACLICK.play()" >  A   </button>
+<button class="B" onclick="BCLICK.play()" >  B  </button>
+<button class="C" onclick="CCLICK.play()" >  C   </button>
+<button class="D" onclick="DCLICK.play()" >  D   </button>
+<button class="E" onclick="ECLICK.play()" >  E  </button>
+</div>
+</body>
+</html>

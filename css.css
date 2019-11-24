@@ -1,0 +1,87 @@
+body{
+   background-color:black;
+}
+.A{
+  position: absolute;
+  color: black;
+  padding-top: 258px;
+  
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 50px;
+  background-color: white;
+  cursor: pointer;
+  left: 360px;
+  top: 143px;
+}
+.B{
+  position: absolute;
+  color: black;
+  padding-top: 258px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 111px;
+  background-color: white;
+  cursor: pointer;
+  left: 360px;
+  top: 143px;
+}
+.C{
+  position: absolute;
+  color: black;
+  padding-top: 258px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 175px;
+  background-color: white;
+  cursor: pointer;
+  left: 360px;
+  top: 143px;
+}
+.D{
+  position: absolute;
+  color: black;
+  padding-top: 258px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 240px;
+  background-color: white;
+  cursor: pointer;
+  left: 360px;
+  top: 143px;
+}
+.E{
+  position: absolute;
+  color: black;
+  padding-top: 258px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 300px;
+  background-color: white;
+  cursor: pointer;
+  left: 360px;
+  top: 143px;
+}
+.wel{
+  color: azure;
+  text-align: center;
+  padding-right: 90px;
+  background-color: aqua;
+}
+.div1{
+  background-color: brown;
+  border-style: groove;
+  padding: 100px;
+  margin: 80px;
+  height:100px ;
+  margin-left: 140px;
+  width: 700px;
+  
+  
+}
+
